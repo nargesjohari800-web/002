@@ -8,6 +8,7 @@
 }
 
 body {
+  font-family: var(vaziri2);
   text-align: center;
   align-items: center;
   background: #ffbbfb;
@@ -15,9 +16,7 @@ body {
   padding: 0;
 }
 
-body h1 {
-  color: red;
-}
+
 .container {
   margin-top: 50px;
 }
@@ -30,13 +29,14 @@ body h1 {
 }
 
 .box {
+
   display: inline-block;
   padding: 20px;
   background: white;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   font-size: 20px;
-  font-family: monospace;
+  font-family:system-ui;
 }
 
 .buttons button {
@@ -46,6 +46,7 @@ body h1 {
   cursor: pointer;
   border: none;
   border-radius: 5px;
+    font-family:system-ui;
 
 }
 
@@ -123,5 +124,4 @@ body h1 {
   font-size: 24px;
   border-radius: 15px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-
 }
